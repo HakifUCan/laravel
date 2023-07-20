@@ -1,0 +1,41 @@
+body {
+    background-color: #f2f2f2; /* Background color for the entire page */
+}
+
+h1 {
+    color: #333; /* Heading color */
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for images */
+}
+
+/* Additional color styles */
+.container-color {
+    background-color: #ffffff; /* Background color for the container */
+}
+
+.text-color {
+    color: #666666; /* Text color */
+}
+
+.link-color {
+    color: #007bff; /* Link color */
+}
+
+.link-color:hover {
+    color: #0056b3; /* Link color on hover */
+}
